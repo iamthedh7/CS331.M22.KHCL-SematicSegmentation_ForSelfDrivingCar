@@ -4,8 +4,6 @@
 
 # Download full here: https://drive.google.com/drive/folders/1iKLyJCLocV90glBT67hvCnZJRsFBJTSq?usp=sharing
 
-Step 0: download all and put all to a folder.
-
 If you want to Augmentation data: run "low_light.ipynb"
 
 All properties information is in the picture below:
