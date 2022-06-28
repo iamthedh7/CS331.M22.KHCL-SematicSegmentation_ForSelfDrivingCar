@@ -2,7 +2,7 @@
 <h1 align="center"><b>CS331.M22.KHCL</b></h1>
 <h1 align="center"><b>SEMATIC SEGMENTATION FOR SELF DRIVING CAR</b></h1>
 
-# Download full here: https://drive.google.com/drive/folders/1iKLyJCLocV90glBT67hvCnZJRsFBJTSq?usp=sharing
+# Full source code here: https://drive.google.com/drive/folders/1iKLyJCLocV90glBT67hvCnZJRsFBJTSq?usp=sharing
 
 If you want to Augmentation data: run "low_light.ipynb"
 
