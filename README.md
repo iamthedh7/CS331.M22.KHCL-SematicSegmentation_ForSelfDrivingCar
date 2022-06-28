@@ -15,4 +15,4 @@ Note: Our model is using 6 classes: Background, Car0 (Carhead), Road, Car, Cycle
 <h1 align="center"><b>--------</b></h1>
 
 <!-- Footer -->
-<p align='center'>Copyright © 2022 Duong Hai Nguyen, Tuan Nam Trinh, Hoai Nam Nguyen</p>
+<p align='center'>Copyright © 2022 Duong Hai Nguyen, Tuan Nam Trinh, Hoai Nam Nguyen, Thanh Trung Nguyen</p>
