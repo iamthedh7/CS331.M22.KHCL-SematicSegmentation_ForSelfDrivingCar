@@ -42,7 +42,7 @@
       <cmd>
       python Evaluate.py
 
-- If we want to see how the results are predicted with your model, open Visual Studio Code and run: 'Single_pred.ipynb'.
+- If we want to see how the results are predicted with your model, open Visual Studio Code and run: **_'Single_pred.ipynb'_**.
       
 - Run this cmd line to show many result images like a video. You can edit a little bit to use for a video as input:
       
