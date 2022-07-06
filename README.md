@@ -29,7 +29,8 @@
 
 - This cmd line uses to augmentation our raw data. Here, we change the image's brightness up (+30, +60) and down (-20, -40):
 
-      <cmd> python Augmentation.py
+      <cmd> 
+      python Augmentation.py
 
 - Then we will train our model. When run these sequencely, we have _model_Unet.h5_ & _model_DLV3plus.h5_:
 
