@@ -19,28 +19,27 @@
 
 **# Step 3:** cd to CV folder and run: 
 
-                                                       python <filename>
+- This cmd line uses to augmentation our raw data. Here, we change the image's brightness up (+30, +60) and down (-20, -40):
 
-+ Augmentation.py: 
+      python Augmentation.py
 
-      this file uses to augmentation our raw data. Here, we change the image's brightness up (+30, +60) and down (-20, -40).
+- Then we will train our model. When run these sequencely, we have _model_Unet.h5_ & _model_DLV3plus.h5_:
 
-+ UNET_model.py & DLV3plus.py: 
+      python UNET_model.py
+      python DLV3plus.py
 
-      these files are our model training files. When run these files sequencely, we have _model_Unet.h5_ & _model_DLV3plus.h5_.
-
-+ Evaluate.py: 
-
-      this file will calculate IoU score in both models. It uses both train-raw-data & valid-raw-data to calculate, instead of separate test set.
-
-+ Single_pred.ipynb: 
+- We will calculate IoU score in both models. It uses both train-raw-data & valid-raw-data to calculate, instead of a separate test set:
       
-      when we run this file, we can see how the results are predicted with your model.
+      python Evaluate.py
 
-+ Multi_pred.py: 
+- If we want to see how the results are predicted with your model, we run:
+      
+      python Single_pred.ipynb
+      
+- Run this cmd line to show many result images like a video. You can edit a little bit to use for a video as input:
+      
+      python Multi_pred.py
 
-      run this file to show many result images like a video. You can edit a little bit to use for a video as input.
-           
 ------------------------------------------------------------------------------------------------
 
 Note: Our model is using 6 classes: Background, Car0 (Carhead), Road, Car, Cycle, Human.
