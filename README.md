@@ -5,9 +5,9 @@
 
 ---------------------------------------------------------------------------------------------
 
-  Using: UNET and DEEPLABv3+ in Tensorflow framework
+**Using:** UNET and DEEPLABv3+ in Tensorflow framework
 
-  Dataset: we use CityScape dataset (https://www.cityscapes-dataset.com/downloads/)
+**Dataset:** we use CityScape dataset (https://www.cityscapes-dataset.com/downloads/)
 
 ---------------------------------------------------------------------------------------------
 
