@@ -8,7 +8,7 @@ Dataset: we use CityScape dataset (https://www.cityscapes-dataset.com/downloads/
 
 ---------------------------------------------------------------------------------------------
 
-**# Note:** your Anaconda Environment should be installed 'tensorflow-gpu' if you're using Nvidia GPU.
+**Note:** your Anaconda Environment should be installed 'tensorflow-gpu' if you're using Nvidia GPU.
 
 **# Step 0:** clone this repository and rename to CV
 
