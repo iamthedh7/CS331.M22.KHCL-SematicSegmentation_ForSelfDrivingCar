@@ -2,36 +2,36 @@
 <h1 align="center"><b>CS331.M22.KHCL</b></h1>
 <h1 align="center"><b>SEMATIC SEGMENTATION FOR SELF DRIVING CAR</b></h1>
 
-
 Using: UNET and DEEPLABv3+ in Tensorflow framework
+
+Dataset: we use CityScape dataset (https://www.cityscapes-dataset.com/downloads/)
 
 ---------------------------------------------------------------------------------------------
 
-**# Step 0:** clone this repository
+**# Note:** your Anaconda Environment should be installed 'tensorflow-gpu' if you're using Nvidia GPU.
 
-**# Step 1:** install CUDA and cudnn (recommend) if you're using Nvidia GPU.
+**# Step 0:** clone this repository and rename to CV
 
-**# Step 2:** set up an Anaconda Environment.
+**# Step 1:** go to https://drive.google.com/drive/folders/1iKLyJCLocV90glBT67hvCnZJRsFBJTSq?usp=sharing to download 2 folders.
+(leftImg8bit: images, gtFine: masks). Then, extract them and put into CV.
 
-**# Step 3:** go to https://drive.google.com/drive/folders/1iKLyJCLocV90glBT67hvCnZJRsFBJTSq?usp=sharing to download raw data (2 folders - we use CityScape dataset)
+**# Step 2:** cd to CV folder and run: 
 
-**# Step 3:** cd to your repository's savepath, then activate the Environment and run this command line:
+                                                       python <filename>
 
-           python Main.py 
++ Augmentation.py: this file uses to augmentation our raw data. Here, we change the image's brightness up (+30, +60) and down (-20, -40).
 
-# or:  <if you want to save your Result>     
-    
-           python Main.py 1
++ UNET_model.py & DLV3plus.py: these files are our model training files. When run these files sequencely, we have _model_Unet.h5_ & _model_DLV3plus.h5_.
 
-**# Step 4:** select your custom test image or some image in folder Testing. The result image will be shown for 10s.
++ Evaluate.py: this file will calculate IoU score in both models. It uses both train-raw-data & valid-raw-data to calculate, instead of separate test set.
 
-           
-_***Note:_ Please install the necessary libraries into the Environment by yourself when the terminal warning "missing libraries". Detecting in a video and realtime will be update soon.
++ Single_pred.ipynb: when we run this file, we can see how the results are predicted with your model.
 
++ Multi_pred.py: run this file to show many result images like a video. You can edit a little bit to use for a video as input.
            
 ------------------------------------------------------------------------------------------------
 
-Note: Our model is using 6 classes: Background, Car0 (Carhead), Road, Car, Cycle, Human
+Note: Our model is using 6 classes: Background, Car0 (Carhead), Road, Car, Cycle, Human.
 
 <h1 align="center"><b>--------</b></h1>
 
