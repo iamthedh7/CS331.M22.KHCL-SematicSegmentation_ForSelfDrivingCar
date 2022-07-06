@@ -9,7 +9,13 @@
 
 ---------------------------------------------------------------------------------------------
 
-**Note:** your Anaconda Environment should be installed 'tensorflow-gpu' if you're using Nvidia GPU.
+**Note:** 
+
+1. Your Anaconda Environment should be installed 'tensorflow-gpu' if you're using Nvidia GPU.
+
+2. Our model is using 6 classes: Background, Car0 (Carhead), Road, Car, Cycle, Human.
+
+---------------------------------------------------------------------------------------------
 
 **# Step 0:** clone this repository and rename to CV
 
@@ -41,8 +47,6 @@
       python Multi_pred.py
 
 ------------------------------------------------------------------------------------------------
-
-Note: Our model is using 6 classes: Background, Car0 (Carhead), Road, Car, Cycle, Human.
 
 <h1 align="center"><b>--------</b></h1>
 
