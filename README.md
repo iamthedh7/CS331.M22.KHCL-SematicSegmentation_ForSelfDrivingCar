@@ -52,4 +52,4 @@
 
 ------------------------------------------------------------------------------------------------
 <!-- Footer -->
-<p align='center'>Copyright © 2022 Duong Hai Nguyen, Tuan Nam Trinh, Hoai Nam Nguyen, Thanh Trung Nguyen</p>
+<p align='center'>Copyright © 2022 Duong Hai Nguyen, Tuan Nam Trinh, Hoai Nam Nguyen</p>
