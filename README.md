@@ -29,23 +29,24 @@
 
 - This cmd line uses to augmentation our raw data. Here, we change the image's brightness up (+30, +60) and down (-20, -40):
 
-      python Augmentation.py
+      <cmd> python Augmentation.py
 
 - Then we will train our model. When run these sequencely, we have _model_Unet.h5_ & _model_DLV3plus.h5_:
 
+      <cmd>
       python UNET_model.py
       python DLV3plus.py
 
 - We will calculate IoU score in both models. It uses both train-raw-data & valid-raw-data to calculate, instead of a separate test set:
       
+      <cmd>
       python Evaluate.py
 
-- If we want to see how the results are predicted with your model:
-      
-      # run 'Single_pred.ipynb' in Visual Studio Code.
+- If we want to see how the results are predicted with your model, open Visual Studio Code and run: 'Single_pred.ipynb'.
       
 - Run this cmd line to show many result images like a video. You can edit a little bit to use for a video as input:
       
+      <cmd>
       python Multi_pred.py
 
 ------------------------------------------------------------------------------------------------
