@@ -22,15 +22,25 @@
 
                                                        python <filename>
 
-+ Augmentation.py: this file uses to augmentation our raw data. Here, we change the image's brightness up (+30, +60) and down (-20, -40).
++ Augmentation.py: 
 
-+ UNET_model.py & DLV3plus.py: these files are our model training files. When run these files sequencely, we have _model_Unet.h5_ & _model_DLV3plus.h5_.
+      this file uses to augmentation our raw data. Here, we change the image's brightness up (+30, +60) and down (-20, -40).
 
-+ Evaluate.py: this file will calculate IoU score in both models. It uses both train-raw-data & valid-raw-data to calculate, instead of separate test set.
++ UNET_model.py & DLV3plus.py: 
 
-+ Single_pred.ipynb: when we run this file, we can see how the results are predicted with your model.
+      these files are our model training files. When run these files sequencely, we have _model_Unet.h5_ & _model_DLV3plus.h5_.
 
-+ Multi_pred.py: run this file to show many result images like a video. You can edit a little bit to use for a video as input.
++ Evaluate.py: 
+
+      this file will calculate IoU score in both models. It uses both train-raw-data & valid-raw-data to calculate, instead of separate test set.
+
++ Single_pred.ipynb: 
+      
+      when we run this file, we can see how the results are predicted with your model.
+
++ Multi_pred.py: 
+
+      run this file to show many result images like a video. You can edit a little bit to use for a video as input.
            
 ------------------------------------------------------------------------------------------------
 
