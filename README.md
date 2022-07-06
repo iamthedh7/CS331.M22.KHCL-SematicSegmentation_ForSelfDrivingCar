@@ -14,9 +14,11 @@
 **# Step 0:** clone this repository and rename to CV
 
 **# Step 1:** go to https://drive.google.com/drive/folders/1iKLyJCLocV90glBT67hvCnZJRsFBJTSq?usp=sharing to download 2 folders.
-(leftImg8bit: images, gtFine: masks). Then, extract them and put into CV.
+(leftImg8bit: images, gtFine: masks).
 
-**# Step 2:** cd to CV folder and run: 
+**# Step 2:** extract compressed file in _Step 2_ and put into CV.
+
+**# Step 3:** cd to CV folder and run: 
 
                                                        python <filename>
 
