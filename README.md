@@ -1,7 +1,7 @@
 <!-- Title -->
 <h2 align="center"><b>CS331.M22.KHCL</b></h2>
 <h1 align="center"><b>SEMATIC SEGMENTATION FOR SELF DRIVING CAR</b></h1>
-<h2 align="center"><b>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</b></h2>
+<h2 align="center"><b>~~~~~~~</b></h2>
 
   Using: UNET and DEEPLABv3+ in Tensorflow framework
 
